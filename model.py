@@ -22,7 +22,6 @@ from tensorflow.python.client import device_lib
 print (device_lib.list_local_devices())
 
 
-'''
 
 # reading book
 with open ("mehmetAkifErsoyTemiz.txt","r",encoding="utf-16") as siir:
@@ -126,4 +125,3 @@ def generate_text(seed_text, next_words, model, max_sequence_len):
     
 print(generate_text("gemiler geldi oturdu",10,model,max_input_sequence_len))
 
-'''
